@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    background-color: #f8f9fa;
+    font-family: 'Poppins' , sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 80rem;
+    width: 120rem;
+    
+    display: flex;
+    .izq{
+        padding: 3rem;
+        background-color: rgba(29, 29, 27, 1);
+        height: 100%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 3rem;
+        select{
+            width: 15rem;
+            height: 4rem;
+            border: none;
+            border-radius: 1rem;
+            option{
+                font-size: 1.8rem;
+            }
+        }
+        .inputs{
+            display: flex;
+            flex-direction: column;
+            label{
+                margin-top: 2rem;
+                color: #e9ecef;
+                font-size: 2rem;
+            }
+            input{
+                height: 4rem;
+                width: 20rem;
+                padding: 0 2rem;
+                font-size: 1.5rem;
+                border: none;
+                border-radius: 1rem;
+            }
+        }
+        .btn{
+            height: 5rem;
+            width: 15rem;
+            border: none;
+            border-radius: 1rem;
+            cursor: pointer;
+        }
+    }
+    .der{
+        height: 100%;
+        width: 70%;
+        background-color: #e9ecef;
+        table,th, td{
+            border: 1px solid rgba(29, 29, 27, 0.2);
+            border-collapse: collapse;
+        }
+        table{
+            height: 100% ;
+            width: 100%;
+            thead{
+                height: 10%;
+                th{
+                    font-size: 2rem;
+                }
+            }
+            tbody{
+                td{
+                    text-align: center;
+                    font-size: 2rem;
+                }
+            }
+            tfoot{
+                background-color: black;
+                height: 10%;
+                border: none;
+                td{
+                    color: white;
+                    font-size: 2rem;
+                }
+                td:first-child{
+                    padding-left: 2rem;
+                }
+                td:last-child{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+
+.celda-ingreso{
+    background-color: #4cd463;
+}
+.celda-egreso{
+    background-color: #e8574d;
+    color: #fff;
+}

@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  background-color: #f8f9fa;
+  font-family: 'Poppins' , sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box {
+  height: 80rem;
+  width: 120rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box .izq {
+  padding: 3rem;
+  background-color: #1d1d1b;
+  height: 100%;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3rem;
+}
+
+.box .izq select {
+  width: 15rem;
+  height: 4rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.box .izq select option {
+  font-size: 1.8rem;
+}
+
+.box .izq .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.box .izq .inputs label {
+  margin-top: 2rem;
+  color: #e9ecef;
+  font-size: 2rem;
+}
+
+.box .izq .inputs input {
+  height: 4rem;
+  width: 20rem;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.box .izq .btn {
+  height: 5rem;
+  width: 15rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.box .der {
+  height: 100%;
+  width: 70%;
+  background-color: #e9ecef;
+}
+
+.box .der table, .box .der th, .box .der td {
+  border: 1px solid rgba(29, 29, 27, 0.2);
+  border-collapse: collapse;
+}
+
+.box .der table {
+  height: 100%;
+  width: 100%;
+}
+
+.box .der table thead {
+  height: 10%;
+}
+
+.box .der table thead th {
+  font-size: 2rem;
+}
+
+.box .der table tbody td {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.box .der table tfoot {
+  background-color: black;
+  height: 10%;
+  border: none;
+}
+
+.box .der table tfoot td {
+  color: white;
+  font-size: 2rem;
+}
+
+.box .der table tfoot td:first-child {
+  padding-left: 2rem;
+}
+
+.box .der table tfoot td:last-child {
+  text-align: center;
+}
+
+.celda-ingreso {
+  background-color: #4cd463;
+}
+
+.celda-egreso {
+  background-color: #e8574d;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
